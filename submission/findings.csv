@@ -1,1 +1,50 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L1,na,SPURIOUS,,,,,,,,
+calib,C0,adasind_019560.jpg,L2,na,SPURIOUS,,,,,,,,
+calib,C0,adasind_019560.jpg,L7+R3,na,WRONG_CLASS,,,,,,,,
+calib,C0,adasind_019560.jpg,L9,na,SPURIOUS,,,,,,,,
+r2_qa,B4-dense,adasind_258420.jpg,L1,L_only,WRONG_CLASS,,P2,guideline,R04,,escalate,,"Mau lap lai (5 ca) auto-rickshaw gan nham Car; escalate de patch rule R04, xem 20_guideline_patch.md va 30_escalation_ticket.md"
+r2_qa,B4-dense,adasind_258420.jpg,L2,L_only,WRONG_CLASS,,P2,guideline,R04,,escalate,,"Mau lap lai (5 ca) auto-rickshaw gan nham Car; escalate de patch rule R04, xem 20_guideline_patch.md va 30_escalation_ticket.md"
+r2_qa,B4-dense,adasind_258420.jpg,L7,L_only,WRONG_CLASS,,P2,guideline,R04,,escalate,,"Mau lap lai (5 ca) auto-rickshaw gan nham Car; escalate de patch rule R04, xem 20_guideline_patch.md va 30_escalation_ticket.md"
+r2_qa,B4-dense,adasind_270517.jpg,L2,L_only,WRONG_CLASS,,P2,guideline,R04,,escalate,,"Mau lap lai (5 ca) auto-rickshaw gan nham Car; escalate de patch rule R04, xem 20_guideline_patch.md va 30_escalation_ticket.md"
+r2_qa,B4-dense,adasind_270517.jpg,L8,L_only,WRONG_CLASS,,P2,guideline,R04,,escalate,,"Mau lap lai (5 ca) auto-rickshaw gan nham Car; escalate de patch rule R04, xem 20_guideline_patch.md va 30_escalation_ticket.md"
+r2_qa,B1-mid,adasind_014670.jpg,L2,L_only,WRONG_CLASS,,,,R04,,,,
+r2_qa,B1-mid,adasind_034080.jpg,L2; L6,L_only,DUPLICATE,,,,R03,,,,
+r2_qa,B1-mid,adasind_034080.jpg,L9,L_only,BOX_GEOMETRY,,,,R02,,,,
+r1_craft,B1-mid,adasind_014670.jpg,L5,na,SPURIOUS,,,,,,,,
+r1_craft,B1-mid,adasind_032280.jpg,L2,na,SPURIOUS,,,,,,,,
+r1_craft,B1-mid,adasind_032280.jpg,L7,na,SPURIOUS,,,,,,,,
+r1_craft,B1-mid,adasind_034080.jpg,L3,na,SPURIOUS,,,,,,,,
+r1_craft,B1-mid,adasind_034080.jpg,L4,na,SPURIOUS,,,,,,,,
+r1_craft,B1-mid,adasind_034080.jpg,L9+R2,na,BOX_GEOMETRY,,,,,,,,
+r3_diag,B1-mid,adasind_014670.jpg,L4+R3,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,"L va R (teaching reference) deu xac nhan co vat; model bo sot -> gioi han model, khong phai loi annotator"
+r3_diag,B1-mid,adasind_014670.jpg,L2+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,"L va R deu xac nhan co vat; model bo sot. Phan hoi QA (nhi, rule R04): reference cung gan class Truck cho vat nay (khong bi WRONG_CLASS trong compare.md) -> giai toa nghi van ve class, giu nguyen Truck."
+r3_diag,B1-mid,adasind_014670.jpg,L5,L_only,SPURIOUS,E5_unresolved,P2,annotator,,,keep_with_reason,,"Khong khop ca R lan M; frame dong vat co the ca hai cung bo sot. Chua du bang chung de khang dinh loi, can soi anh goc phong to"
+r3_diag,B1-mid,adasind_014670.jpg,M3,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_014670.jpg,M6,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_014670.jpg,M7,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_032280.jpg,L6+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,"L va R (teaching reference) deu xac nhan co vat; model bo sot -> gioi han model, khong phai loi annotator"
+r3_diag,B1-mid,adasind_032280.jpg,L1+R6,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,"L va R (teaching reference) deu xac nhan co vat; model bo sot -> gioi han model, khong phai loi annotator"
+r3_diag,B1-mid,adasind_032280.jpg,L2,L_only,SPURIOUS,E5_unresolved,P2,annotator,,,keep_with_reason,,"Khong khop ca R lan M; frame dong vat co the ca hai cung bo sot. Chua du bang chung de khang dinh loi, can soi anh goc phong to"
+r3_diag,B1-mid,adasind_032280.jpg,L7,L_only,SPURIOUS,E5_unresolved,P2,annotator,,,keep_with_reason,,"Khong khop ca R lan M; frame dong vat co the ca hai cung bo sot. Chua du bang chung de khang dinh loi, can soi anh goc phong to"
+r3_diag,B1-mid,adasind_032280.jpg,M3,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_032280.jpg,M5,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_032280.jpg,M7,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_032280.jpg,M8,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_032280.jpg,M9,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_032280.jpg,M11,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_034080.jpg,L6+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,"L va R (teaching reference) deu xac nhan co vat; model bo sot -> gioi han model, khong phai loi annotator"
+r3_diag,B1-mid,adasind_034080.jpg,L10+R7,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,"L va R (teaching reference) deu xac nhan co vat; model bo sot -> gioi han model, khong phai loi annotator"
+r3_diag,B1-mid,adasind_034080.jpg,L5+R9,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,"L va R (teaching reference) deu xac nhan co vat; model bo sot -> gioi han model, khong phai loi annotator"
+r3_diag,B1-mid,adasind_034080.jpg,L2+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,"L va R (teaching reference) deu xac nhan co vat; model bo sot -> gioi han model, khong phai loi annotator"
+r3_diag,B1-mid,adasind_034080.jpg,L3,L_only,SPURIOUS,E5_unresolved,P2,annotator,,,keep_with_reason,,"Khong khop ca R lan M; frame dong vat co the ca hai cung bo sot. Chua du bang chung de khang dinh loi, can soi anh goc phong to"
+r3_diag,B1-mid,adasind_034080.jpg,L4,L_only,SPURIOUS,E5_unresolved,P2,annotator,,,keep_with_reason,,"Khong khop ca R lan M; frame dong vat co the ca hai cung bo sot. Chua du bang chung de khang dinh loi, can soi anh goc phong to"
+r3_diag,B1-mid,adasind_034080.jpg,L9,L_only,SPURIOUS,E1_annotator_error,P1,annotator,,,rework,,"Hoi tu voi QA (nhi, rule R02): box Car lan sang than ThreeWheeler L10 phia truoc; can thu mep trai theo phan xe con thuc su nhin thay"
+r3_diag,B1-mid,adasind_034080.jpg,R2+M3,RM_noL,MISSING,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_034080.jpg,M7,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_034080.jpg,M8,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_034080.jpg,M9,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_034080.jpg,M10,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_034080.jpg,M11,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_034080.jpg,M12,M_only,SPURIOUS,E4_model_domain,P3,ai_team,,,keep_with_reason,,Model du doan thua so voi ca L va R; khong anh huong nhan cua annotator
+r3_diag,B1-mid,adasind_034080.jpg,L2; L6,na,DUPLICATE,E5_unresolved,P2,annotator,,,keep_with_reason,,"Phan hoi QA (nhi, rule R03): doi chieu compare.md cho thay ca L2 va L6 deu khop rieng biet voi reference (khong nam trong danh sach SPURIOUS) -> nhieu kha nang la 2 vat that, khong phai trung lap. Giu nguyen, chua du bang chung tuyet doi tu anh phong to."

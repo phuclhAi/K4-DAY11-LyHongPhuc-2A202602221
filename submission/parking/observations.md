@@ -1,6 +1,6 @@
 # Quan sát vạch ô đỗ
 
-- Hai vạch `parking_line` đã vẽ (mô tả vị trí trong ảnh): TODO
-- Một vạch/dấu sơn hoặc biên **không** vẽ, và vì sao: TODO
-- Polygon `free_space` dừng ở đâu; có phần bị che nào không: TODO
-- Ca chưa chắc cần hỏi người soát (nếu không có, ghi “không có”): TODO
+- Hai vạch `parking_line` đã vẽ (mô tả vị trí trong ảnh): (1) một vạch chéo ở dãy ô gần camera nhất, góc dưới-giữa khung hình (điểm ~532,719 → ~408,652), chia hai ô đỗ ở hàng tiền cảnh; (2) một vạch ở dãy ô giữa khung, ngay sau vị trí xe đỏ (điểm ~245,563 → ~177,524), chia hai ô ở hàng thứ hai tính từ camera.
+- Một vạch/dấu sơn hoặc biên **không** vẽ, và vì sao: dải sáng chạy ngang gần rìa trên của mặt bãi (khoảng y≈463–480, sát hàng cây/hàng rào phía xa) không được vẽ thành `parking_line` — đây là ranh giới giữa mặt nhựa và dải cỏ/hàng rào (biên bãi đỗ), không phải vạch chia hai ô đỗ cụ thể, nên không gán nhãn theo luật ở docs/11.
+- Polygon `free_space` dừng ở đâu; có phần bị che nào không: các polygon dừng đúng tại mép nhựa gần hàng rào/hàng cây ở phía xa (không lấn vào cỏ), và dừng ở mép dưới/hai bên khung hình (giới hạn vật lý của ảnh); vùng có xe đỏ đứng bị loại ra khỏi free_space, không vẽ đè lên xe.
+- Ca chưa chắc cần hỏi người soát (nếu không có, ghi "không có"): có — một `parking_line` được vẽ thành một đoạn thẳng gần như xuyên suốt bề ngang ảnh (điểm 0,542 → 960,508) mà không có điểm gãy trung gian, khác với các vạch stall-divider khác vốn ngắn và cục bộ. Cần hỏi người soát xem đây có đúng là một vạch sơn liên tục hay thực chất là ranh giới hàng ô (row boundary) nên tách thành nhiều đoạn ngắn theo từng cặp ô.

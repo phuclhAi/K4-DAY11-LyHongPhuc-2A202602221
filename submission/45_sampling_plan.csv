@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,35,high,Front là hướng lái chính; nhiều xung đột người đi bộ/giao cắt nên cần baseline lớn để bắt phân bố lỗi thường gặp
+front,hard,25,high,Ưu tiên ca ngược sáng/che khuất ở giao lộ vì đây là nơi seam front-left/front-right và tương tác người đi bộ dễ gây miss-detect nhất
+rear,normal,30,high,Rear phục vụ cảnh báo lùi; tần suất dùng cao khi đỗ xe nên cần nhiều frame normal để đo baseline ổn định
+rear,hard,20,high,Vùng mù khi lùi (trẻ em/vật thấp sát cản sau) là rủi ro an toàn cao, cần tỷ lệ hard đủ lớn dù ít hơn front
+left,normal,25,medium,Left chủ yếu phục vụ chuyển làn/điểm mù; khối lượng normal vừa đủ để đo false negative ở tốc độ trung bình
+left,hard,20,medium,Ca khó tập trung ở seam left-front/left-rear và xe máy áp sát trong điểm mù
+right,normal,25,medium,Right tương tự left nhưng thêm ca đón/trả khách sát lề nên giữ normal ngang left
+right,hard,20,medium,Ca khó gồm người đi bộ/xe đạp sát vỉa hè bên phải và seam right-rear

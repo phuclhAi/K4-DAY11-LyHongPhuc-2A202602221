@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: 8d727986f2e64bfc6d002a00337d01659cb05b0b2dc87365b6151205bd20bd99
+code: 8D72-7986
+locked_at: 2026-09-28T16:54:59+07:00
+shapes: box=9, polygon=3
+prefill_kept: 0
+prefill_edited: 0
+new: 9

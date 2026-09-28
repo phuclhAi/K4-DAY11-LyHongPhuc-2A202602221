@@ -1,0 +1,25 @@
+{
+  "members": [
+    "nhi",
+    "phuc",
+    "tuan"
+  ],
+  "assignments": {
+    "nhi": "B3-center",
+    "phuc": "B1-mid",
+    "tuan": "B4-dense"
+  },
+  "self": "phuc",
+  "slice": "B1-mid",
+  "degrade": [
+    "k12"
+  ],
+  "current_slice": "B1-mid",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_014670.jpg:1",
+    "adasind_014670.jpg:2",
+    "adasind_014670.jpg:3"
+  ]
+}
